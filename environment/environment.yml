@@ -1,0 +1,36 @@
+environment_version: 1
+credentials:
+- type: general
+  id: 6kRt6rvCbFuqQXlR
+  description: doc_db_password
+  value: DOC_DB_PASSWORD
+- type: general
+  id: cvW392zgp6x22eGx
+  description: doc_db_username
+  value: DOC_DB_USERNAME
+- type: general
+  id: AQ6SGc0kt9V3VCDO
+  description: DOC_DB_HOST
+  value: DOC_DB_HOST
+- type: general
+  id: 6Foe0pbpAj6hPIMm
+  description: ssh_username
+  value: DOC_DB_SSH_USERNAME
+- type: general
+  id: s4qR5E1LB4HpsF2D
+  description: ssh_password
+  value: DOC_DB_SSH_PASSWORD
+- type: general
+  id: IUaYoT85jmiPNgNn
+  description: ssh_host
+  value: DOC_DB_SSH_HOST
+- type: aws
+  id: Ua4QbewnnXqREUXC
+  description: AWS Assumable Role - aind-codeocean-user
+  access_key_id: AWS_ACCESS_KEY_ID
+  secret_access_key: AWS_SECRET_ACCESS_KEY
+  region: AWS_DEFAULT_REGION
+- type: general
+  id: zk3VSFsCMj1cs9eA
+  description: doc_db_uri
+  value: CUSTOM_KEY_7
